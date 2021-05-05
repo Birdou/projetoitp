@@ -1,0 +1,88 @@
+
+Tons de cinza:
+                Black,                 White,                grey11,
+               grey21,                grey31,               DimGray,
+                 Gray,              DarkGray,                Silver,
+            LightGrey,             Gainsboro.
+------------------------
+
+Tons de azul:
+            SlateBlue,            SlateBlue1,            SlateBlue3,
+        DarkSlateBlue,          MidnightBlue,                  Navy,
+             DarkBlue,            MediumBlue,                  Blue,
+       CornflowerBlue,             RoyalBlue,            DodgerBlue,
+          DeepSkyBlue,          LightSkyBlue,               SkyBlue,
+            LightBlue,             SteelBlue,        LightSteelBlue,
+            SlateGray,        LightSlateGray. 
+------------------------
+
+Tons de ciano:
+                 Aqua,                  Cyan,         DarkTurquoise,
+            Turquoise,       MediumTurquoise,         LightSeaGreen,
+             DarkCyan,                  Teal,            Aquamarine,
+     MediumAquamarine,             CadetBlue. 
+------------------------
+
+Tons de verde:
+        DarkSlateGray,     MediumSpringGreen,           SpringGreen,
+            PaleGreen,            LightGreen,          DarkSeaGreen,
+       MediumSeaGreen,              SeaGreen,             DarkGreen,
+                Green,           ForestGreen,             LimeGreen,
+                 Lime,             LawnGreen,            Chartreuse,
+          GreenYellow,           YellowGreen,             OliveDrab,
+       DarkOliveGreen,                 Olive, 
+------------------------
+
+Tons de marrom:
+            DarkKhaki,             Goldenrod,         DarkGoldenrod,
+          SaddleBrown,                Sienna,             RosyBrown,
+                 Peru,             Chocolate,            SandyBrown,
+          NavajoWhite,                 Wheat,             BurlyWood,
+                  Tan. 
+------------------------
+
+Tons de roxo:
+      MediumSlateBlue,          MediumPurple,            BlueViolet,
+               Indigo,            DarkViolet,            DarkOrchid,
+         MediumOrchid,                Purple,           DarkMagenta,
+              Fuchsia,               Magenta,                Violet,
+               Orchid,                  Plum. 
+------------------------
+
+Tons de rosa:
+      MediumVioletRed,              DeepPink,               HotPink,
+        PaleVioletRed,             LightPink,                  Pink,
+           LightCoral,             IndianRed,               Crimson.
+------------------------
+
+Tons de vermelho:
+               Maroon,               DarkRed,             FireBrick,
+                Brown,                Salmon,            DarkSalmon,
+          LightSalmon,                 Coral,                Tomato,
+                  Red.
+------------------------
+
+Tons de laranja:
+            OrangeRed,            DarkOrange,                Orange.
+------------------------
+
+Tons de amarelo:
+                 Gold,                Yellow,                 Khaki.
+------------------------
+
+Tons pastel:
+            AliceBlue,            GhostWhite,                  Snow,
+             Seashell,           FloralWhite,            WhiteSmoke,
+                Beige,               OldLace,                 Ivory,
+                Linen,              Cornsilk,          AntiqueWhite,
+       BlanchedAlmond,                Bisque,           LightYellow,
+         LemonChiffon,  LightGoldenrodYellow,            PapayaWhip,
+            PeachPuff,              Moccasin,         PaleGoldenrod,
+            MistyRose,         LavenderBlush,              Lavender,
+              Thistle,                 Azure,             LightCyan,
+           PowderBlue,         PaleTurquoise,              Honeydew,
+            MintCream.
+------------------------
+
+Para usar uma cor pelo nome, use scolor [nome_da_cor] ou sclear [nome_da_cor].
+------------------------

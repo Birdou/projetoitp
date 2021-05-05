@@ -1,0 +1,189 @@
+
+Blue equalizer: blueequal [0-100] [0-100] [0-100]
+	Ajusta a intensidade de vermelho, verde e azul na imagem de acordo com
+os níveis originais de azul da imagem. Valores altos (ou baixos demais)
+podem provocar a perda de informação;
+------------------------
+
+Brighten: brighten [percentual]
+	Aumenta o brilho da imagem. Valores altos (ou baixos demas) podem
+provocar a perda de informação;
+------------------------
+
+Circle: circle [linha] [coluna] [raio] [preencher (P)]
+	Desenha um círculo com raio especificado. Para P > 0 o círculo será
+preenchido;
+------------------------
+
+Clear: clear [0-255] [0-255] [0-255]
+	Redefine as cores dos pixeis da imagem para os valores RGB vermelho,
+azul e verde respectivamente;
+------------------------
+
+Color: color [0-255] [0-255] [0-255]
+	Muda a cor do pincel para os valores RGB vermelho, azul e verde
+respectivamente;
+------------------------
+
+Comp: comp [caminho 1] [caminho 2]
+	Comprime uma imagem PPM ou descomprime, caso esta esteja comprimida, e
+salva em 'caminho 2'
+------------------------
+Curve: curve [pontos] [X1] [Y1] ... [X pontos] [Y pontos]
+	Desenha uma curva de Bézier de ordem \"pontos\";
+------------------------
+
+Darken: darken [0-100]
+	Diminui o brilho da imagem. Valores altos (ou baixos demais) podem
+provocar a perda de informação;
+------------------------
+
+Desaturate: desaturate [0-100] [0-100] [0-100]
+	Provoca a desaturação dos pixeis que apresentarem um percentual de
+brilho menor do que o valor informado em vermelho, verde e azul;
+------------------------
+
+Elipse: elipse [linha] [coluna] [largura] [altura]
+	Desenha uma elipse com largura e algura informadas;
+------------------------
+
+Exit: exit
+	Sai do programa e libera a memória antes utilizada para a manipulação da
+imagem;
+------------------------
+
+Fill: fill [linha] [coluna]
+	Preenche com cor, a partir de (coluna, linha) todos os pixeis até que
+seja encontrado um limite, caso não exista, a função preencherá toda a
+imagem, mantendo o conteúdo preexistente;
+------------------------
+
+From file: fromfile [arquivo]
+	Carrega um algoritmo para a criação de uma imagem;
+------------------------
+
+Glitch: glitch [distancia] [ângulo]
+	Aplica um efeito de distanciamento dos planos de cores de acordo com o
+ângulo informado;
+------------------------
+
+Global: global [linha] [coluna]
+	Altera todas as cores idênticas a cor na posição informada para a cor do
+pincel;
+------------------------
+
+Gray scale: grayscale
+	Aplica um filtro preto e branco em toda a imagem;
+------------------------
+
+Green equalizer: greenequal [0-100] [0-100] [0-100]
+	Ajusta a intensidade de vermelho, verde e azul na imagem de acordo com
+os níveis originais de verde da imagem. Valores altos (ou baixos demais)
+podem provocar a perda de informação;
+------------------------
+
+Guev: guev [escala]
+	Aplica um estilo Guevara (preto e branco por limiar) na imagem;
+	
+------------------------
+
+Help: help
+	Exibe esta mensagem;
+------------------------
+
+Image: image [largura] [altura]
+	Cria uma nova imagem com a largura e altura especificadas;
+------------------------
+
+Intensity: intensity [0-100] [0-100] [0-100]
+	Ajusta a intensidade de vermelho, verde e azul na imagem. Valores altos
+(ou baixos demais) podem provocar a perda de informação;
+------------------------
+
+Invert: invert
+	Inverte a imagem verticalmente;
+------------------------
+
+Line: line [linha 1] [coluna 1] [linha 2] [coluna 2]
+	Desenha uma linha de (linha 1, coluna 1) a (linha 2, coluna 2);
+------------------------
+
+List color: listcolor
+	Exibe uma mensagem listando algumas cores predefinidas pelo programa;
+------------------------
+
+Negative: negative
+	Aplica um filtro negativo em toda a imagem;
+------------------------
+
+Open: open [caminho]
+	Carrega um arquivo PPM (binário ou ASCII) preexistente para edição.
+Outros formatos (ainda) não são suportados;
+------------------------
+
+Pixelize: pixelize [pixels]
+	Cria um efeito de pixelização. O valor informado definirá o tamanho do
+novo pixel;
+------------------------
+
+Polygon: polygon [lados] [X1] [Y1] [X2] [Y2] [X3] [Y3] ... [X lados] [Y lados]
+	Cria um polígono com a quantidade de lados especificada, passando pelos
+"lados" pares de pontos;
+------------------------
+
+Purge: purge
+	Limpa a tela;
+------------------------
+
+RBGlitch: rbglitch [distancia] [ângulo]
+	Aplica um efeito de distanciamento dos planos de cores de acordo com o
+ângulo informado depois de ter aplicado o efeito grayscale;
+------------------------
+
+Rectangle: rect [linha] [coluna] [largura] [altura]
+	Cria um retângulo com largura e altura especificadas;
+------------------------
+
+Red equalizer: redequal [0-100] [0-100] [0-100]
+	Ajusta a intensidade de vermelho, verde e azul na imagem de acordo com
+os níveis originais de vermelho da imagem. Valores altos (ou baixos demais)
+podem provocar a perda de informação;
+------------------------
+
+Rotate: rotate
+	Gira a imagem em 90 graus no sentido horário;
+------------------------
+
+Save: save [3 ou 6] [caminho]
+	Salva a imagem no formato P3 (PPMA) ou P6 (PPMB) no diretório
+especificado;
+------------------------
+
+Special clear: sclear [cor]
+	Redefine as cores dos pixeis da imagem para a cor informada. (Use
+listcolor para obter a lista de cores que podem ser usadas com esse
+comando);
+------------------------
+
+Special color: scolor [cor]
+	Altera a cor do pincel para a cor informada. (Use listcolor para obter a
+lista de cores que podem ser usadas com esse comando).
+------------------------
+
+Sepia: sepia
+	Aplica um filtro sépia (antigo) em toda a imagem;
+------------------------
+
+Size: size [tamanho]
+	Altera o tamanho do pincel para o tamanho informado.
+------------------------
+
+Undo: undo
+	Desfaz a última alteração feita na imagem;
+------------------------
+
+Vibrancy: vibrancy [0-100]
+	Ajusta a vibração de cores na imagem de acordo com o percentual
+especificado. Valores altos (ou baixos demais) podem provocar a perda de
+informação;
+------------------------
