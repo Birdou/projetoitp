@@ -1,0 +1,7 @@
+objects
+*.sublime-workspace
+*.sublime-project
+
+*.exe
+prog
+paintIt
